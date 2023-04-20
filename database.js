@@ -22,10 +22,17 @@ const author= [
     }
 ]
 
-const publication = [{
+const publication = [
+    {
     id:1,
     name:"writex",
     books:["12345book"]
-}]
+},
+{
+    id:2,
+    name:"writex",
+    books:[]
+}
+]
 
 module.exports = {books,author,publication}
